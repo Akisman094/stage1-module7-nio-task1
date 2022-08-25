@@ -1,6 +1,4 @@
-package com.epam.mjc.io;
-
-import com.epam.mjc.nio.Profile;
+package com.epam.mjc.nio;
 
 import java.io.File;
 import java.io.FileInputStream;
