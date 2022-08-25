@@ -42,7 +42,7 @@ public class FileReaderTest {
 
     @Test
     public void testProgramReadsDataCorrectly () {
-        FileReader fileReader = new FileReader();
+        com.epam.mjc.io.FileReader fileReader = new com.epam.mjc.io.FileReader();
         Profile actual = fileReader.getDataFromFile(new File(TEST_FILE.toUri()));
         assertEquals(profile, actual);
     }
